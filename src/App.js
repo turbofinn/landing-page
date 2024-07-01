@@ -7,6 +7,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/delete-request" element={<LandingPage />} />
       </Routes>
     </Router>
   );
